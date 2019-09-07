@@ -78,7 +78,9 @@ export default (props: IIndexProps) => (
                 <Post key={node.id}>
                     <PostContent>
                         <PostTitle>
-                            {node.frontmatter.title}
+                            <Link to={node.fields.slug}>
+                                {node.frontmatter.title}
+                            </Link>
                         </PostTitle>
                         <PostInfo>
                             <PostDate>{node.frontmatter.date}</PostDate>
