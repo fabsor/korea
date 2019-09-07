@@ -16,13 +16,21 @@ const Post = styled.article`
     box-shadow: 8px 14px 38px rgba(39,44,49,.06),1px 3px 8px rgba(39,44,49,.03);
     transition: all .5s ease;    
     border-radius: 7px;
+    ${(props) => props.theme.media.small`
+      flex-direction: row;
+    `};
+    ${(props) => props.theme.media.large`
+      margin-left: auto;
+      margin-right: auto;
+   `}    
 `;
 
 const Image = styled.div`
-    flex: 2;
+   flex-basis: 400px;
     img {
       margin-bottom: 0;
     }
+    margin-right: 20px;
 `;
 
 const Content = styled.section`
@@ -76,6 +84,11 @@ export default (props: IIndexProps) => (
         <Content>
             {props.data.allMarkdownRemark.edges.map(({ node }) => (
                 <Post key={node.id}>
+                    { node.frontmatter.image ?
+                      <Image>
+                          <Img fluid={node.frontmatter.image.childImageSharp.fluid}  />
+                      </Image>
+                      : null }                    
                     <PostContent>
                         <PostTitle>
                             <Link to={node.fields.slug}>
@@ -86,13 +99,8 @@ export default (props: IIndexProps) => (
                             <PostDate>{node.frontmatter.date}</PostDate>
                             <PostAuthor>{node.frontmatter.author}</PostAuthor>
                         </PostInfo>
-                        <section dangerouslySetInnerHTML={{ __html: node.html }}></section>
+                        <p>{node.excerpt}</p>
                     </PostContent>
-                    { node.frontmatter.image ?
-                      <Image>
-                          <Img fluid={node.frontmatter.image.childImageSharp.fluid}  />
-                      </Image>
-                      : null }
                 </Post>
             ))}
         </Content>
@@ -110,11 +118,18 @@ export const query = graphql`
                         title
                         author
                         date(formatString: "Y-MM-DD")
+                        image {
+                            childImageSharp {
+                                fluid(maxWidth: 600) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }                    
                     }
                     fields {
                         slug
                     } 
-                    html
+                    excerpt
                 }
             }
         }
