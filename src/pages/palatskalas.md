@@ -1,5 +1,5 @@
 ---
-title: Palats-kalas!
+title: Palatskalas!
 date: 2019-09-05
 author: "Fabian Sörqvist"
 image: "../images/palats-kalas/ingang.jpg"
