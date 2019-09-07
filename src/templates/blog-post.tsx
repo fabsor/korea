@@ -49,9 +49,13 @@ export default (props: IProps) => {
                 <ArticleHeader>
                 <PostDate>{post.frontmatter.date}</PostDate>
                 <PostTitle>{post.frontmatter.title}</PostTitle>
-                </ArticleHeader>           
+                </ArticleHeader>
+                { post.frontmatter.image ?
+                <>
                 <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
                 <Main dangerouslySetInnerHTML={{ __html: post.html }} />
+                </>
+                : null }
             </article>            
         </Layout>
     )
@@ -65,14 +69,7 @@ export const query = graphql`
             frontmatter {
                 title
                 author
-                date
-                image {
-                    childImageSharp {
-                        fluid(maxHeight: 800) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
+                date(formatString: "Y-MM-DD")
             }
         }
     }

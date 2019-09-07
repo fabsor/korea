@@ -19,7 +19,7 @@ export const font = {
     p: "1.2em",
 }
 
-export const maxWidth = 860;
+export const maxWidth = 980;
 
 export const breakpoints = {
     huge: 1220,
