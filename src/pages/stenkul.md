@@ -2,6 +2,7 @@
 title: Stenkul!
 date: 2019-09-07
 author: "Fabian Sörqvist"
+image: "../images/stenar/zodiak.jpg"
 ---
 
 Här i Korea gillar de stenar, och att forma dem till skoj saker.

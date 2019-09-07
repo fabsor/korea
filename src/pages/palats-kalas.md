@@ -2,6 +2,7 @@
 title: Palats-kalas!
 date: 2019-09-05
 author: "Fabian Sörqvist"
+image: "../images/palats-kalas/ingang.jpg"
 ---
 
 När jag och Sebbe reser är det inte en resa utan diverse besök till
