@@ -18,16 +18,16 @@ En nästan tre timmar lång tågfärd påbörjades 06.00 och bjöd på fina land
 
 ![Busan ligger väldigt fint längs kusten.](../images/busan/busanvidhavet.jpg)
 
-![Busan och Gamcheon](../images/busan/busangamcheon.jpg)
+![Busan och Gamcheon.](../images/busan/busangamcheon.jpg)
 
 På eftermiddagen tog vi en buss från centrala Busan och gick sen resten upp för en massa backar för att komma till Gamcheon Culture Village vilket de kallar för "Machu Picchu of Busan". Väldigt fint och väldigt svettigt som sagt. Skapar skarpa kontraster till stan.
 
-![Gamecheon village](../images/busan/gamcheon.jpg)
+![Gamecheon village.](../images/busan/gamcheon.jpg)
 
-Personligen skulle jag även kalla byn för "Favelas of Busan" då de påminner mycket om de områden som finns i Rio De Janeiro med sin trappliknande arkitektur. Färger snålades inte med. Nästan som att titta ner i sen skål med Fruit Loops.
+Personligen skulle jag även kalla byn för "Favelas of Busan" då de påminner mycket om de områden som finns i Rio De Janeiro med sin trappliknande arkitektur. Färger snålades inte med. Nästan som att titta ner i en skål med Fruit Loops.
 
 Vi avslutade dagen på Foreigner Street.
 
-![Foreigner street](../images/busan/foreignerstreet.jpg)
+![Foreigner street.](../images/busan/foreignerstreet.jpg)
 
 ![Vi fadear ut i neon.](../images/busan/suddigneon.jpg)
