@@ -4,7 +4,13 @@ module.exports = {
     description: `En story om tre män och en dröm.`,
     author: `Sebastian Anderberg, Henrik Hallgren och Fabian Sörqvist`,
   },
-  plugins: [
+    plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-2888989-6",
+      },
+    },        
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
