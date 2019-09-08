@@ -2,7 +2,7 @@
 title: Busan - en storstad med massa bus
 date: 2019-09-08
 author: "Sebastian Anderberg"
-image: "../images/busan/ingang.jpg"
+image: "../images/busan/busanvidhavet.jpg"
 ---
 
 Dagen började redan klockan 04.50 och redan vid 06.00 förväntades våra trötta stjärtar färdas i södergående riktning mot Busan som är Sydkoreas näst största stad. Busan är en hamnstad med en befolkningsmängd på nästan 4 miljoner invånare och kan ses som ett svar till Sydkoreas Göteborg med tanke på att den är landets viktigaste hamnstad med en del industrier som ligger till grund till dess ekonomiska relevans för landet. Staden är också känd för sin kulinariska orientering med inspiration främst från havet och sina många resorts för folk som gärna spenderar dagen i lägre knop. 
@@ -30,4 +30,4 @@ Vi avslutade dagen på Foreigner Street.
 
 ![Foreigner street](../images/busan/foreignerstreet.jpg)
 
-![Vi fadear ut i neon](../images/busan/suddigneon.jpg)
+![Vi fadear ut i neon.](../images/busan/suddigneon.jpg)
