@@ -26,11 +26,16 @@ const Post = styled.article`
 `;
 
 const Image = styled.div`
-   flex-basis: 400px;
     img {
+      width: 100%;
       margin-bottom: 0;
     }
-    margin-right: 20px;
+    margin-bottom: 20px;
+    ${(props) => props.theme.media.small`
+      margin-bottom: 0;
+      margin-right: 20px;
+      flex-basis: 400px;
+   `};
 `;
 
 const Content = styled.section`
@@ -46,8 +51,8 @@ const PostContent = styled.div`
     color: #000;
     }
     figcaption {
-      font-size: .9em;
-      color: #555;
+    font-size: .9em;
+    color: #555;
     }
 `;
 
@@ -57,13 +62,13 @@ const PostTitle = styled.h2`
 `
 
 const PostInfo = styled.div`
-  display: flex;
-  margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 10px;
 `;
 const PostDate = styled.time`
-  font-size: .8em;
-  color: ${(props) => props.theme.colors.accent};
-  margin-right: 10px;
+    font-size: .8em;
+    color: ${(props) => props.theme.colors.accent};
+    margin-right: 10px;
 `;
 
 const PostAuthor = styled.div`
@@ -120,7 +125,7 @@ export const query = graphql`
                         date(formatString: "Y-MM-DD")
                         image {
                             childImageSharp {
-                                fluid(maxWidth: 600) {
+                                fluid(maxWidth: 670) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
