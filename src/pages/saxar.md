@@ -2,10 +2,10 @@
 title: Saxen - En koreansk variant av kökskniv
 date: 2019-09-09T11:21
 author: "Sebastian Anderberg"
-image: "../images/saxar/.jpg"
+image: "../images/saxar/saxar.jpg"
 ---
 
-![Klipp klipp.](../images/saxar/toa-stangd.jpg)
+![Klipp klipp.](../images/saxar/saxar.jpg)
 
 Att ta saxen ur kökslådan och lägga den på bordet när man ska äta skulle troligtvis höja ögonbrynen hos de andra personerna runt bordet.
 Vad vi fått erfarat hittils under våra middagar (främst Korean BBQ) är att saxen har en central roll i det koreanska köket. Istället för att dela maten med knivar klipper man upp maten i små bitar för att sedan plockas upp med ätpinnar och förtäras.
