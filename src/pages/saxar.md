@@ -1,6 +1,6 @@
 ---
 title: Saxen - En koreansk variant av kökskniv
-date: 2019-09-09T11:21
+date: 2019-09-11T17:23
 author: "Sebastian Anderberg"
 image: "../images/saxar/saxar.jpg"
 ---
