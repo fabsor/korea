@@ -17,7 +17,7 @@ Vi har landat i Jeonju Cultural village. 800 hus till största delen ockuperade 
 
 ![Inte en stad utan ett härligt palats](../images/jeonju/slott.jpg)
 
-![Det finns vägar i Jeonju](../images/jeonju/storgata)
+![Det finns vägar i Jeonju](../images/jeonju/storgata.jpg)
 
 ![Det finns också mindre vägar](../images/jeonju/gata.jpg)
 
