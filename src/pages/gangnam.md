@@ -2,7 +2,7 @@
 title: Gangnam
 date: 2019-09-13T23:00
 author: "Sebastian Anderberg"
-image: "../images/gangnamn/1.jpg"
+image: "../images/gangnam/gangnam.png"
 ---
 
 Med så mycket tid att spendera i Seoul och den virala succé som Psy gav oss 2012 begav vi oss till Gangnamn-gu som är själva distriktet med extrem livstil, skyhöga hyror och höga förväntningar. Huvudgatan i sig liknade egentligen vilken high-end gata du kan tänka dig i en storstad med butiker som representerar de stora exklusiva giganterna inom kläder, accessoarer och övrigt blingbling.
